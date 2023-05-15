@@ -1,0 +1,7 @@
+events_module.store_form:
+  path: '/store-form'
+  defaults:
+    _form: '\Drupal\form_event\Form\StoreForm'
+    _title: 'Store Form'
+  requirements:
+    _permission: 'access content'

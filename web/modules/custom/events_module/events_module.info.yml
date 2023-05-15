@@ -1,0 +1,6 @@
+name: Events Module
+type: module
+package: Events
+description: 'Subscribing to events'
+version: 1.x
+core_version_requirement: ^9 || ^10

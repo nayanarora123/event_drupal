@@ -1,0 +1,7 @@
+events_module.user_form:
+  path: '/form'
+  defaults:
+    _form: '\Drupal\events_module\Form\UserForm'
+    _title: 'User Form'
+  requirements:
+    _permission: 'access content'

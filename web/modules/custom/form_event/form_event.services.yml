@@ -1,0 +1,5 @@
+services:
+  form_event_config_events_subscriber:
+    class: '\Drupal\form_event\EventSubscriber\ValidateEventSubscriber'
+    tags:
+      - { name: event_subscriber }
